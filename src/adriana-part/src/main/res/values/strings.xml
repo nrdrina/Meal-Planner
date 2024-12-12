@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OrganizeRecipe</string>
+
+    <string name="text">
+        <item name="android:border"></item>
+    </string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".testMenuFavourite">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="Select menu" />
+
+        <Button
+            android:id="@+id/btnbread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="bread">
+        </Button>
+
+        <Button
+            android:id="@+id/btnegg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="egg">
+        </Button>
+
+        <Button
+            android:id="@+id/btnburger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="burger">
+        </Button>
+
+        <Button
+            android:id="@+id/btnsosej"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="sosej">
+        </Button>
+
+        <Button
+            android:id="@+id/viewProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="user profile">
+        </Button>
+
+        <ListView
+            android:id="@+id/menuListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--        <RadioGroup-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_weight="1" >-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/rbtn4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Ayam" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/rbtn3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Udang" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/rbtn2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Telur" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/rbtn1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Ketam" />-->
+
+<!--        </RadioGroup>-->
+    </LinearLayout>
+
+
+
+</LinearLayout>
